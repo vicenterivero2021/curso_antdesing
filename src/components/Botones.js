@@ -16,6 +16,7 @@ function Botones() {
             <Button type="primary" danger    loading size="small">Primary loading</Button>
             <Button type="ghost" disabled size="small">disabled</Button>
             <Button ghost size="large">ghost</Button>
+            <Button type="primary" ghost size="large">ghost-primary</Button>            <Button type="primary" ghost size="large">ghost-primary</Button>
             <Button type="primary" ghost size="large">ghost-primary</Button>
 
             <Button type="primary" icon={<SearchOutlined/>} ghost shape="circle" size="large"></Button>
