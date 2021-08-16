@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Iconos from './components/Iconos'
 import Botones from './components/Botones'
+import Formink from './components/Formink'
+import Formularios from './components/Formularios'
 import { DatePicker, Button } from 'antd';
 //importaciones de la hoja de estilos
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
@@ -19,6 +21,8 @@ function App() {
       <Iconos />
       <br></br>
       <Botones />
+      <Formink/>
+      <Formularios/>
 
     </div>
   );
